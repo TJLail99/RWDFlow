@@ -19,6 +19,7 @@ header{
 h1{
     font-size: 3.8vw;
     float: left;
+    margin-bottom: 0;
 }
 
 nav {
@@ -28,7 +29,7 @@ nav {
     height: 6vw;
     justify-items: center;
     align-items: end;
-}
+   }
 
 nav > a{
     font-size: 1.4em;
@@ -42,6 +43,9 @@ main {
     clear: both;
     margin: 0 auto;
     padding: 16px;
+    position: relative;
+    z-index: -1;
+
 }
 
 footer {
